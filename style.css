@@ -6,4 +6,11 @@ body {
 .list {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50vw;
+    margin: auto;
+}
+
+.click-img {
+    width: 300px;
+    height: auto;
 }
