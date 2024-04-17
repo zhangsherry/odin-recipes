@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+.para,
+.list {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
