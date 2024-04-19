@@ -1,5 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div {
+    margin: auto;
     text-align: center;
+    /* border: 2px solid red; */
+}
+
+.home-list {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin: auto;
+}
+
+.home-list li {
+    background-color: lightyellow;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 5px outset rgb(250, 211, 139);
+}
+
+.name{
+    display:block;
+    /* margin-bottom: 20px; */
+}
+
+.click-img {
+    width: 400px;
+    height: auto;
 }
 
 .para,
@@ -10,7 +45,4 @@ body {
     margin: auto;
 }
 
-.click-img {
-    width: 300px;
-    height: auto;
-}
+
